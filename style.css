@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
 body {
     background-color: black;
     font-family: "Open Sans", sans-serif;
@@ -13,7 +19,6 @@ body {
     flex-direction: column;
   }
 h1 {
-    background-color: black;
     color: white;
     font-size: 10rem;
     font-weight: lighter;

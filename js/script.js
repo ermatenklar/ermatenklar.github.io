@@ -1,10 +1,8 @@
-function changeText() {
-    var id = document.getElementsByClassName("btn")[0].id;
-    if(id==1) {
-        document.getElementById("text").innerHTML = "JA";
-        document.getElementsByClassName("btn")[0].id=0
+function toggleText(event) {
+    var text = event.textContent || event.innerText;
+    if(text== "NEI") {
+        event.innerHTML = "JA"
     } else {
-        document.getElementById("text").innerHTML = "NEI";
-        document.getElementsByClassName("btn")[0].id=1
+        event.innerHTML = "NEI"
     }
 }

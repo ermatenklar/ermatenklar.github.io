@@ -1,6 +1,6 @@
 body {
     background-color: black;
-
+    font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -11,24 +11,15 @@ body {
     position: fixed;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
-
-h1 {
-    color: white;
-    font-size: 10rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-}
-.bottomright {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;
-
-}
-
 button {
     background-color: black;
     color: white;
     border: none;
+    font-size: 10rem;    
+}
+a {
+    color: white;
+    font-size: 0.9rem;
 }
